@@ -19,16 +19,27 @@ namespace Lab_create_new_type
 
         public void S()
         {
-                //         S = a² / 4 * √ 25 + 10 * √5 
-                //        re = a / 10 * √ 50 + 10 * √5
-                //        ri = a / 10 * √ 25 + 10 * √5     
-              
+            //         S = a² / 4 * √ 25 + 10 * √5 
+            //        re = a / 10 * √ 50 + 10 * √5
+            //        ri = a / 10 * √ 25 + 10 * √5     
+
+
+
+
+            if (A > 0)
+            {
                 Ss = Math.Pow(A, 2) / 4 * Math.Sqrt(25 + 10 * Math.Sqrt(5));
                 R = A / 10 * Math.Sqrt(50 + 10 * Math.Sqrt(5));
                 r = A / 10 * Math.Sqrt(25 + 10 * Math.Sqrt(5));
-           
-            
-            
+
+            }
+            else
+            {
+
+            }
+
+
+
 
 
         }
