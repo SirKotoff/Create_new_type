@@ -15,6 +15,10 @@ namespace Lab_create_new_type
         public double Ss { get; set; }
         public double p { get; set; }
 
+        public Pentagon()
+        {
+            this.A = A;
+        }
 
 
         public void S()
@@ -22,6 +26,10 @@ namespace Lab_create_new_type
             //         S = a² / 4 * √ 25 + 10 * √5 
             //        re = a / 10 * √ 50 + 10 * √5
             //        ri = a / 10 * √ 25 + 10 * √5     
+
+
+
+          
 
 
 
@@ -36,6 +44,8 @@ namespace Lab_create_new_type
             else
             {
 
+               
+                Console.Beep();
             }
 
 
